@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css">
+    <script src='controller.js'></script>
+</head>
+<body>
+    <div class="container">
+        <form id="cadastroForm">
+            <fieldset>
+                <legend>Endereço</legend>
+    
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required maxlength="9" placeholder="00000-000">
+    
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" name="rua" required readonly>
+    
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" required readonly>
+    
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" required readonly>
+    
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado" required readonly>
+            </fieldset>
+            
+        </form>
+        <button type="submit">Cadastrar</button>
+    </div>
+</body>
+</html>
