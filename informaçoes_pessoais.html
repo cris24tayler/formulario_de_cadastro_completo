@@ -5,12 +5,12 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>formulario de cadastro</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='styles.js'></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src='controller.js'></script>
 </head>
 <body>
-    <div>
-        <form>
+    <div class="container">
+        <form id="cadastroForm">
             <fieldset>
                 <legend>Informações Pessoais</legend>
 
@@ -21,6 +21,8 @@
                 <input type="date" id="nascimento" name="nascimento" required>
             </fieldset>
         </form>
+        <form action="endereco.html" method="get">
+            <button type="submit">avançar</button>
     </div>
 </body>
 </html>
